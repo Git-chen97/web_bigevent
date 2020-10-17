@@ -47,7 +47,7 @@ $(function () {
                 //弹出登录成功提示
                 layer.msg(res.message);
                 //跳转到后台主页
-                //location.href = '/index.html'
+                location.href = '/index.html'
             }
         })
     })
